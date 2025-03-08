@@ -2,9 +2,9 @@
 
 namespace Ainur\Repository\Tests;
 
+use Ainur\Repository\RepositoryServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Ainur\Repository\RepositoryServiceProvider;
 
 class TestCase extends Orchestra
 {
