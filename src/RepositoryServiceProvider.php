@@ -2,9 +2,9 @@
 
 namespace Ainur\Repository;
 
+use Ainur\Repository\Commands\RepositoryCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Ainur\Repository\Commands\RepositoryCommand;
 
 class RepositoryServiceProvider extends PackageServiceProvider
 {
