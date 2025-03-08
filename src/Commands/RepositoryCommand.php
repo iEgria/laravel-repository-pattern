@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Ainur\Repository\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class RepositoryCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-repository-pattern';
 
     public $description = 'My command';
 
